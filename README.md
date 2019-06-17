@@ -14,11 +14,11 @@
 
 2. 建立以下 Area 與 Routing 規則，當瀏覽器輸入該網址顯示對應的 Area, Controll, Action, 參數
 
-    - /Order/List/{page} => area = Order, controller = Default, action = List, {page} = 數字
-    - /OrderDetail/{id} => area = Order, controller = Default, action = Detail, {id} = 數字
+    - /Order/List/{page} => area = Order, controller = Default, action = List, page = {page}
+    - /OrderDetail/{id} => area = Order, controller = Default, action = Detail, id = {id}
     - /Ticket/List => area = Ticket, controller = Main, action = List
     - /Ticket/Detail/{id} => area = Ticket, controller = Main, action = Detail, {id} = 數字
-    - /Product/{category} => area = Product, controller = Main, action = List, {category} = 字串
+    - /Product/{category} => area = Product, controller = Main, action = List, category = {category}
 
 
 ### 進階
